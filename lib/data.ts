@@ -1,0 +1,108 @@
+import { type Sculpture } from './types'
+
+export const sculptures: Sculpture[] = [
+  {
+    id: '1',
+    name: 'Eternal Grace',
+    price: 12500,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/eternal-grace-gold.jpg',
+      Silver: '/images/sculptures/eternal-grace-silver.jpg',
+    },
+    description: 'A magnificent representation of timeless elegance, this sculpture captures the essence of graceful movement frozen in precious metal.',
+    dimensions: '45cm × 30cm × 25cm',
+    weight: '8.5 kg',
+  },
+  {
+    id: '2',
+    name: 'Abstract Harmony',
+    price: 8900,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/abstract-harmony-gold.jpg',
+      Silver: '/images/sculptures/abstract-harmony-silver.jpg',
+    },
+    description: 'Inspired by the fluidity of nature, this abstract piece embodies the perfect balance between chaos and order.',
+    dimensions: '35cm × 40cm × 20cm',
+    weight: '6.2 kg',
+  },
+  {
+    id: '3',
+    name: 'Celestial Dreams',
+    price: 15800,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/celestial-dreams-gold.jpg',
+      Silver: '/images/sculptures/celestial-dreams-silver.jpg',
+    },
+    description: 'Reaching towards the infinite, this towering masterpiece represents humanity\'s eternal aspiration for the stars.',
+    dimensions: '60cm × 25cm × 25cm',
+    weight: '12.3 kg',
+  },
+  {
+    id: '4',
+    name: 'Whispers of Time',
+    price: 9500,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/whispers-gold.jpg',
+      Silver: '/images/sculptures/whispers-silver.jpg',
+    },
+    description: 'A delicate interplay of light and shadow, this sculpture speaks to the ephemeral nature of existence.',
+    dimensions: '40cm × 35cm × 30cm',
+    weight: '7.8 kg',
+  },
+  {
+    id: '5',
+    name: 'Noble Ascent',
+    price: 22000,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/noble-ascent-gold.jpg',
+      Silver: '/images/sculptures/noble-ascent-silver.jpg',
+    },
+    description: 'Rising with commanding presence, this sculpture embodies the spirit of triumph and noble ambition.',
+    dimensions: '75cm × 40cm × 40cm',
+    weight: '18.5 kg',
+  },
+  {
+    id: '6',
+    name: 'Serene Reflection',
+    price: 7200,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/serene-reflection-gold.jpg',
+      Silver: '/images/sculptures/serene-reflection-silver.jpg',
+    },
+    description: 'Inspired by still waters, this meditative piece invites contemplation and inner peace.',
+    dimensions: '30cm × 50cm × 15cm',
+    weight: '5.4 kg',
+  },
+  {
+    id: '7',
+    name: 'Phoenix Rising',
+    price: 18500,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/phoenix-rising-gold.jpg',
+      Silver: '/images/sculptures/phoenix-rising-silver.jpg',
+    },
+    description: 'A powerful symbol of rebirth and transformation, capturing the mythical bird in its moment of emergence.',
+    dimensions: '55cm × 35cm × 30cm',
+    weight: '14.2 kg',
+  },
+  {
+    id: '8',
+    name: 'Infinite Loop',
+    price: 11200,
+    material: 'Gold',
+    images: {
+      Gold: '/images/sculptures/infinite-loop-gold.jpg',
+      Silver: '/images/sculptures/infinite-loop-silver.jpg',
+    },
+    description: 'A mesmerizing continuous form that challenges perception and celebrates mathematical beauty.',
+    dimensions: '38cm × 38cm × 38cm',
+    weight: '9.1 kg',
+  },
+]
